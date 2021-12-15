@@ -1,0 +1,17 @@
+C:\Users\TechRoom\source\repos\Covid19 automation test\Covid19 automation test\bin\Debug\net6.0-windows\Covid19 automation test.exe
+C:\Users\TechRoom\source\repos\Covid19 automation test\Covid19 automation test\bin\Debug\net6.0-windows\Covid19 automation test.deps.json
+C:\Users\TechRoom\source\repos\Covid19 automation test\Covid19 automation test\bin\Debug\net6.0-windows\Covid19 automation test.runtimeconfig.json
+C:\Users\TechRoom\source\repos\Covid19 automation test\Covid19 automation test\bin\Debug\net6.0-windows\Covid19 automation test.dll
+C:\Users\TechRoom\source\repos\Covid19 automation test\Covid19 automation test\bin\Debug\net6.0-windows\ref\Covid19 automation test.dll
+C:\Users\TechRoom\source\repos\Covid19 automation test\Covid19 automation test\bin\Debug\net6.0-windows\Covid19 automation test.pdb
+C:\Users\TechRoom\source\repos\Covid19 automation test\Covid19 automation test\obj\Debug\net6.0-windows\Covid19 automation test.csproj.AssemblyReference.cache
+C:\Users\TechRoom\source\repos\Covid19 automation test\Covid19 automation test\obj\Debug\net6.0-windows\Covid19_automation_test.Form1.resources
+C:\Users\TechRoom\source\repos\Covid19 automation test\Covid19 automation test\obj\Debug\net6.0-windows\Covid19 automation test.csproj.GenerateResource.cache
+C:\Users\TechRoom\source\repos\Covid19 automation test\Covid19 automation test\obj\Debug\net6.0-windows\Covid19 automation test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TechRoom\source\repos\Covid19 automation test\Covid19 automation test\obj\Debug\net6.0-windows\Covid19 automation test.AssemblyInfoInputs.cache
+C:\Users\TechRoom\source\repos\Covid19 automation test\Covid19 automation test\obj\Debug\net6.0-windows\Covid19 automation test.AssemblyInfo.cs
+C:\Users\TechRoom\source\repos\Covid19 automation test\Covid19 automation test\obj\Debug\net6.0-windows\Covid19 automation test.csproj.CoreCompileInputs.cache
+C:\Users\TechRoom\source\repos\Covid19 automation test\Covid19 automation test\obj\Debug\net6.0-windows\Covid19 automation test.dll
+C:\Users\TechRoom\source\repos\Covid19 automation test\Covid19 automation test\obj\Debug\net6.0-windows\ref\Covid19 automation test.dll
+C:\Users\TechRoom\source\repos\Covid19 automation test\Covid19 automation test\obj\Debug\net6.0-windows\Covid19 automation test.pdb
+C:\Users\TechRoom\source\repos\Covid19 automation test\Covid19 automation test\obj\Debug\net6.0-windows\Covid19 automation test.genruntimeconfig.cache

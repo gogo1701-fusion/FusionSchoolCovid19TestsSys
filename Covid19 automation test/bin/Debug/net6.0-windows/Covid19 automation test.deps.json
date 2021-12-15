@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Covid19 automation test/1.0.0": {
+        "runtime": {
+          "Covid19 automation test.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Covid19 automation test/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
