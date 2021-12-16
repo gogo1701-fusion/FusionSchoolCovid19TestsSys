@@ -33,3 +33,21 @@ D:\nothingInteresting\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\De
 D:\nothingInteresting\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\Debug\net6.0-windows\Covid19 automation test.pdb
 D:\nothingInteresting\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\Debug\net6.0-windows\Covid19 automation test.genruntimeconfig.cache
 D:\nothingInteresting\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\Debug\net6.0-windows\Covid19_automation_test.MainWindow.resources
+D:\covid19\FusionSchoolCovid19TestsSys\Covid19 automation test\bin\Debug\net6.0-windows\Covid19 automation test.exe
+D:\covid19\FusionSchoolCovid19TestsSys\Covid19 automation test\bin\Debug\net6.0-windows\Covid19 automation test.deps.json
+D:\covid19\FusionSchoolCovid19TestsSys\Covid19 automation test\bin\Debug\net6.0-windows\Covid19 automation test.runtimeconfig.json
+D:\covid19\FusionSchoolCovid19TestsSys\Covid19 automation test\bin\Debug\net6.0-windows\Covid19 automation test.dll
+D:\covid19\FusionSchoolCovid19TestsSys\Covid19 automation test\bin\Debug\net6.0-windows\ref\Covid19 automation test.dll
+D:\covid19\FusionSchoolCovid19TestsSys\Covid19 automation test\bin\Debug\net6.0-windows\Covid19 automation test.pdb
+D:\covid19\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\Debug\net6.0-windows\Covid19 automation test.csproj.AssemblyReference.cache
+D:\covid19\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\Debug\net6.0-windows\Covid19_automation_test.Form1.resources
+D:\covid19\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\Debug\net6.0-windows\Covid19_automation_test.MainWindow.resources
+D:\covid19\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\Debug\net6.0-windows\Covid19 automation test.csproj.GenerateResource.cache
+D:\covid19\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\Debug\net6.0-windows\Covid19 automation test.GeneratedMSBuildEditorConfig.editorconfig
+D:\covid19\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\Debug\net6.0-windows\Covid19 automation test.AssemblyInfoInputs.cache
+D:\covid19\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\Debug\net6.0-windows\Covid19 automation test.AssemblyInfo.cs
+D:\covid19\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\Debug\net6.0-windows\Covid19 automation test.csproj.CoreCompileInputs.cache
+D:\covid19\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\Debug\net6.0-windows\Covid19 automation test.dll
+D:\covid19\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\Debug\net6.0-windows\ref\Covid19 automation test.dll
+D:\covid19\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\Debug\net6.0-windows\Covid19 automation test.pdb
+D:\covid19\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\Debug\net6.0-windows\Covid19 automation test.genruntimeconfig.cache

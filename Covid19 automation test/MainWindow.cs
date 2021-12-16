@@ -16,5 +16,10 @@ namespace Covid19_automation_test
 		{
 			InitializeComponent();
 		}
+    }
+
+	public struct TestInfo
+	{
+		public string Name;
 	}
 }

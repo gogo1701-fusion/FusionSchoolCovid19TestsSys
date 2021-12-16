@@ -26,15 +26,19 @@ namespace Covid19_automation_test
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (checkPasswordAndUsername())
-			{
+            bool result = checkPasswordAndUsername();
 
-			}
+            if (result)
+            {
+                MainWindow mw = new MainWindow(this);
+                mw.Show();
 
-            MainWindow mw = new MainWindow(this);
-            mw.Show();
-
-            this.Hide();
+                this.Hide();
+            }
+            else if (!result)
+            {
+                MessageBox.Show("Incorrect Password or Username!", "Incorrect Password!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         ///<summary>
@@ -42,21 +46,19 @@ namespace Covid19_automation_test
         ///</summary>
         public bool checkPasswordAndUsername()
 		{
-            if (username == "Fusion")
+            if (usernameInput.Text == username)
 			{
-                if (password == "FusionTests1488!#")
+                if (passwordInput.Text == password) 
                 {
                     return true;
                 }
                 else
 				{
-                    MessageBox.Show("Incorrect Username!", "Incorrect Username!", MessageBoxButtons.OK, MessageBoxIcon.Error);
 				    return false;
                 }
 			}
             else
 			{
-                MessageBox.Show("Incorrect Password!", "Incorrect Password!", MessageBoxButtons.OK, MessageBoxIcon.Error);
 				return false;
             }
 		}
