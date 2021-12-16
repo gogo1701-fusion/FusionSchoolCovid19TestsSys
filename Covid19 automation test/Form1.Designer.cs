@@ -41,6 +41,7 @@
 			// textBox1
 			// 
 			this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			this.textBox1.ForeColor = System.Drawing.Color.White;
 			this.textBox1.Location = new System.Drawing.Point(207, 111);
 			this.textBox1.Name = "textBox1";
 			this.textBox1.Size = new System.Drawing.Size(272, 20);
@@ -49,6 +50,7 @@
 			// textBox2
 			// 
 			this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			this.textBox2.ForeColor = System.Drawing.Color.White;
 			this.textBox2.Location = new System.Drawing.Point(207, 136);
 			this.textBox2.Name = "textBox2";
 			this.textBox2.PasswordChar = '*';
@@ -58,6 +60,7 @@
 			// label1
 			// 
 			this.label1.AutoSize = true;
+			this.label1.ForeColor = System.Drawing.Color.Black;
 			this.label1.Location = new System.Drawing.Point(147, 114);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(58, 13);
@@ -68,6 +71,7 @@
 			// label2
 			// 
 			this.label2.AutoSize = true;
+			this.label2.ForeColor = System.Drawing.Color.Black;
 			this.label2.Location = new System.Drawing.Point(147, 139);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(56, 13);
@@ -77,6 +81,7 @@
 			// button1
 			// 
 			this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.button1.ForeColor = System.Drawing.Color.Black;
 			this.button1.Location = new System.Drawing.Point(254, 185);
 			this.button1.Name = "button1";
 			this.button1.Size = new System.Drawing.Size(166, 60);
@@ -89,6 +94,7 @@
 			// 
 			this.label3.AutoSize = true;
 			this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+			this.label3.ForeColor = System.Drawing.Color.Black;
 			this.label3.Location = new System.Drawing.Point(112, 34);
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(464, 31);
@@ -99,6 +105,7 @@
 			// 
 			this.label4.AutoSize = true;
 			this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+			this.label4.ForeColor = System.Drawing.Color.Black;
 			this.label4.Location = new System.Drawing.Point(-14, 340);
 			this.label4.Name = "label4";
 			this.label4.Size = new System.Drawing.Size(920, 17);
@@ -110,6 +117,7 @@
 			// 
 			this.label5.AutoSize = true;
 			this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+			this.label5.ForeColor = System.Drawing.Color.Black;
 			this.label5.Location = new System.Drawing.Point(-86, 9);
 			this.label5.Name = "label5";
 			this.label5.Size = new System.Drawing.Size(920, 17);
@@ -121,6 +129,7 @@
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.BackColor = System.Drawing.Color.White;
 			this.ClientSize = new System.Drawing.Size(686, 390);
 			this.Controls.Add(this.label5);
 			this.Controls.Add(this.label4);

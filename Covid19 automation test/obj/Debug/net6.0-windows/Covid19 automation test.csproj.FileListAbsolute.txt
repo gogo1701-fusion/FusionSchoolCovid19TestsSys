@@ -32,3 +32,4 @@ D:\nothingInteresting\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\De
 D:\nothingInteresting\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\Debug\net6.0-windows\ref\Covid19 automation test.dll
 D:\nothingInteresting\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\Debug\net6.0-windows\Covid19 automation test.pdb
 D:\nothingInteresting\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\Debug\net6.0-windows\Covid19 automation test.genruntimeconfig.cache
+D:\nothingInteresting\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\Debug\net6.0-windows\Covid19_automation_test.MainWindow.resources
