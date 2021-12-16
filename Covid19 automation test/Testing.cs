@@ -12,16 +12,14 @@ namespace Covid19_automation_test
 {
     public partial class Testing : Form
     {
-        public TestInfo
+        public TestInfo m_TestInfo;
 
         public Testing(TestInfo ti)
         {
             InitializeComponent();
-        }
+            this.m_TestInfo = ti;
 
-        public Testing()
-        {
-            InitializeComponent();
+            this.nameLabel.Text = ti.Name;
         }
 
         private void toolStripButton1_Click(object sender, EventArgs e)

@@ -30,7 +30,7 @@ namespace Covid19_automation_test
 
             if (result)
             {
-                MainWindow mw = new MainWindow(this);
+                MainWindow mw = new MainWindow();
                 mw.Show();
 
                 this.Hide();

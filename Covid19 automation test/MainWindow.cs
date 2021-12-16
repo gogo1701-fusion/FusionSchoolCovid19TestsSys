@@ -12,14 +12,22 @@ namespace Covid19_automation_test
 {
 	public partial class MainWindow : Form
 	{
-		public MainWindow(Form1 form)
+		static TestInfo ti = new TestInfo() { Name = "Nqkoj nqkojsi" };
+
+		Testing test = new Testing(ti);
+		public MainWindow()
 		{
 			InitializeComponent();
 		}
-    }
 
-	public struct TestInfo
+		private void button1_Click(object sender, EventArgs e)
+		{
+			test.Show();
+		}
+	}
+
+	public class TestInfo
 	{
-		public string Name;
+		public string Name { get; set; }
 	}
 }

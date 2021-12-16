@@ -53,3 +53,5 @@ D:\covid19\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\Debug\net6.0-
 D:\covid19\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\Debug\net6.0-windows\Covid19 automation test.genruntimeconfig.cache
 D:\covid19\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\Debug\net6.0-windows\Covid19_automation_test.Properties.Resources.resources
 D:\covid19\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\Debug\net6.0-windows\Covid19_automation_test.Testing.resources
+D:\nothingInteresting\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\Debug\net6.0-windows\Covid19_automation_test.Properties.Resources.resources
+D:\nothingInteresting\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\Debug\net6.0-windows\Covid19_automation_test.Testing.resources
