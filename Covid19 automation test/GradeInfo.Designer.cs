@@ -78,9 +78,11 @@
 			this.ClientSize = new System.Drawing.Size(800, 450);
 			this.Controls.Add(this.studentsListBox);
 			this.Controls.Add(this.gradeNameLabel);
+			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
 			this.Name = "GradeInfo";
 			this.Text = "GradeInfo";
 			this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.GradeInfo_FormClosing);
+			this.MaximizeBox = false;
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
@@ -90,5 +92,9 @@
 
 		private Label gradeNameLabel;
 		private ListBox studentsListBox;
+
+
+		
+
 	}
 }

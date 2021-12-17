@@ -89,13 +89,14 @@
 			this.ClientSize = new System.Drawing.Size(686, 390);
 			this.Controls.Add(this.nameLabel);
 			this.Controls.Add(this.toolStrip1);
+			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
 			this.Name = "Testing";
 			this.Text = "Testing";
 			this.toolStrip1.ResumeLayout(false);
 			this.toolStrip1.PerformLayout();
 			this.ResumeLayout(false);
+			this.MaximizeBox = false;
 			this.PerformLayout();
-
         }
 
         #endregion

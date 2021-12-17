@@ -111,8 +111,14 @@ namespace Covid19_automation_test
 		{
 			Name = "6А",
 			Students = new string[] {
-				"SUS GUYrteht",
-				"Mozhe li da go dobavish drugite?"
+				"Александър Бучков",
+				"Бела",
+				"Благовест Петров",
+				"Георги Георгиев",
+				"Ема Гайдарска",
+				"Лора Пондева",
+				"Мирела",
+
 			}
 		};
 

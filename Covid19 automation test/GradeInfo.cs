@@ -28,7 +28,7 @@ namespace Covid19_automation_test
 			this.studentsListBox.Items.Clear();
 			foreach (string student in gis.Students)
 			{
-				this.studentsListBox.Items.Add(student);
+				int addedItem = this.studentsListBox.Items.Add(student);
 			}
 
 			this.Show();
