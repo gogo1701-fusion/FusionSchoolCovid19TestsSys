@@ -10,25 +10,25 @@ namespace Covid19_automation_test
 	{
 		public static GradeInfoStruct gisPK = new GradeInfoStruct()
 		{
-			Name = "PK",
+			Name = "ПК",
 			Students = new string[] {
-				"SUS GUY",
+				"SUS GUY ПК",
 				"Mozhe li da go dobavish drugite?"
 			}
 		};
 
 		public static GradeInfoStruct gis1A = new GradeInfoStruct()
 		{
-			Name = "1A",
+			Name = "1А",
 			Students = new string[] {
-				"SUS GUY",
+				"SUS GUYfdgh",
 				"Mozhe li da go dobavish drugite?"
 			}
 		};
 
 		public static GradeInfoStruct gis1B = new GradeInfoStruct()
 		{
-			Name = "1B",
+			Name = "1Б",
 			Students = new string[] {
 				"SUS GUY",
 				"Mozhe li da go dobavish drugite?"
@@ -37,99 +37,99 @@ namespace Covid19_automation_test
 
 		public static GradeInfoStruct gis1V = new GradeInfoStruct()
 		{
-			Name = "1V",
+			Name = "1В",
 			Students = new string[] {
-				"SUS GUY",
+				"SUS GUYdsf",
 				"Mozhe li da go dobavish drugite?"
 			}
 		};
 
 		public static GradeInfoStruct gis2A = new GradeInfoStruct()
 		{
-			Name = "2A",
+			Name = "2А",
 			Students = new string[] {
-				"SUS GUY",
+				"SUS GUYsdfsd",
 				"Mozhe li da go dobavish drugite?"
 			}
 		};
 
 		public static GradeInfoStruct gis3A = new GradeInfoStruct()
 		{
-			Name = "3A",
+			Name = "3А",
 			Students = new string[] {
-				"SUS GUY",
+				"SUS GUYregre",
 				"Mozhe li da go dobavish drugite?"
 			}
 		};
 
 		public static GradeInfoStruct gis3B = new GradeInfoStruct()
 		{
-			Name = "3B",
+			Name = "3Б",
 			Students = new string[] {
-				"SUS GUY",
+				"SUS GUYrtehgr",
 				"Mozhe li da go dobavish drugite?"
 			}
 		};
 
 		public static GradeInfoStruct gis3V = new GradeInfoStruct()
 		{
-			Name = "2V",
+			Name = "2В",
 			Students = new string[] {
-				"SUS GUY",
+				"SUS GUYrethr",
 				"Mozhe li da go dobavish drugite?"
 			}
 		};
 
 		public static GradeInfoStruct gis4A = new GradeInfoStruct()
 		{
-			Name = "4A",
+			Name = "4А",
 			Students = new string[] {
-				"SUS GUY",
+				"SUS GUYrethr",
 				"Mozhe li da go dobavish drugite?"
 			}
 		};
 
 		public static GradeInfoStruct gis4B = new GradeInfoStruct()
 		{
-			Name = "4B",
+			Name = "4Б",
 			Students = new string[] {
-				"SUS GUY",
+				"SUS GUYerther",
 				"Mozhe li da go dobavish drugite?"
 			}
 		};
 
 		public static GradeInfoStruct gis5A = new GradeInfoStruct()
 		{
-			Name = "5A",
+			Name = "5А",
 			Students = new string[] {
-				"SUS GUY",
+				"SUS GUYerthr",
 				"Mozhe li da go dobavish drugite?"
 			}
 		};
 
 		public static GradeInfoStruct gis6A = new GradeInfoStruct()
 		{
-			Name = "6A",
+			Name = "6А",
 			Students = new string[] {
-				"SUS GUY",
+				"SUS GUYrteht",
 				"Mozhe li da go dobavish drugite?"
 			}
 		};
 
 		public static GradeInfoStruct gis6B = new GradeInfoStruct()
 		{
-			Name = "6B",
+			Name = "6Б",
 			Students = new string[] {
-				"SUS GUY",
+				"SUS GUY rees",
 				"Mozhe li da go dobavish drugite?"
 			}
 		};
 
 		public static GradeInfoStruct gis7A = new GradeInfoStruct()
 		{
-			Name = "7A",
+			Name = "7А",
 			Students = new string[] {
-				"SUS GUY",
+				"SUS GUYdsgdr",
 				"Mozhe li da go dobavish drugite?"
 			}
 		};

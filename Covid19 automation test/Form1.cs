@@ -62,5 +62,10 @@ namespace Covid19_automation_test
 				return false;
             }
 		}
-    }
+
+		private void showPasswordButton_Click(object sender, EventArgs e)
+		{
+            passwordInput.PasswordChar = ' ';
+		}
+	}
 }

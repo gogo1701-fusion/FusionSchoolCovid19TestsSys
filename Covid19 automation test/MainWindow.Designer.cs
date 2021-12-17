@@ -46,6 +46,7 @@
 			// 
 			// button1
 			// 
+			this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.button1.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
 			this.button1.Location = new System.Drawing.Point(31, 29);
 			this.button1.Name = "button1";
@@ -57,6 +58,7 @@
 			// 
 			// button2
 			// 
+			this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.button2.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
 			this.button2.Location = new System.Drawing.Point(201, 29);
 			this.button2.Name = "button2";
@@ -68,6 +70,7 @@
 			// 
 			// button3
 			// 
+			this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.button3.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
 			this.button3.Location = new System.Drawing.Point(363, 29);
 			this.button3.Name = "button3";
@@ -79,6 +82,7 @@
 			// 
 			// button4
 			// 
+			this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.button4.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
 			this.button4.Location = new System.Drawing.Point(526, 29);
 			this.button4.Name = "button4";
@@ -90,6 +94,7 @@
 			// 
 			// button5
 			// 
+			this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.button5.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
 			this.button5.Location = new System.Drawing.Point(31, 111);
 			this.button5.Name = "button5";
@@ -101,6 +106,7 @@
 			// 
 			// button6
 			// 
+			this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.button6.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
 			this.button6.Location = new System.Drawing.Point(201, 111);
 			this.button6.Name = "button6";
@@ -112,6 +118,7 @@
 			// 
 			// button7
 			// 
+			this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.button7.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
 			this.button7.Location = new System.Drawing.Point(363, 111);
 			this.button7.Name = "button7";
@@ -123,6 +130,7 @@
 			// 
 			// button8
 			// 
+			this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.button8.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
 			this.button8.Location = new System.Drawing.Point(526, 111);
 			this.button8.Name = "button8";
@@ -134,6 +142,7 @@
 			// 
 			// button9
 			// 
+			this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.button9.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
 			this.button9.Location = new System.Drawing.Point(31, 200);
 			this.button9.Name = "button9";
@@ -145,6 +154,7 @@
 			// 
 			// button10
 			// 
+			this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.button10.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
 			this.button10.Location = new System.Drawing.Point(201, 200);
 			this.button10.Name = "button10";
@@ -156,6 +166,7 @@
 			// 
 			// button11
 			// 
+			this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.button11.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
 			this.button11.Location = new System.Drawing.Point(363, 200);
 			this.button11.Name = "button11";
@@ -167,6 +178,7 @@
 			// 
 			// button12
 			// 
+			this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.button12.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
 			this.button12.Location = new System.Drawing.Point(526, 200);
 			this.button12.Name = "button12";
@@ -178,6 +190,7 @@
 			// 
 			// button13
 			// 
+			this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.button13.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
 			this.button13.Location = new System.Drawing.Point(201, 280);
 			this.button13.Name = "button13";
@@ -189,6 +202,7 @@
 			// 
 			// button14
 			// 
+			this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.button14.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
 			this.button14.Location = new System.Drawing.Point(363, 280);
 			this.button14.Name = "button14";
