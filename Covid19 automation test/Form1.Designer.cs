@@ -105,7 +105,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(496, 31);
             this.label3.TabIndex = 5;
-            this.label3.Text = "Здравйте в COVID-19 Тест Системата";
+            this.label3.Text = "Добре Дошли в COVID-19 Тест Системата";
             // 
             // label4
             // 
