@@ -37,7 +37,7 @@ namespace Covid19_automation_test
             }
             else if (!result)
             {
-                MessageBox.Show("Incorrect Password or Username!", "Incorrect Password!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Incorrect Password or Username! If you don`t know the Password or Username, Contact us.", "Incorrect Password or Username!", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -65,7 +65,15 @@ namespace Covid19_automation_test
 
 		private void showPasswordButton_Click(object sender, EventArgs e)
 		{
-            passwordInput.PasswordChar = ' ';
+            if (passwordInput.PasswordChar == '*')
+			{
+                passwordInput.PasswordChar = '\0';
+			    
+            } else if (passwordInput.PasswordChar == '\0')
+			{
+                passwordInput.PasswordChar = '*';
+			}
+
 		}
 	}
 }

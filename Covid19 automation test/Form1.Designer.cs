@@ -37,25 +37,26 @@
 			this.label4 = new System.Windows.Forms.Label();
 			this.label5 = new System.Windows.Forms.Label();
 			this.showPasswordButton = new System.Windows.Forms.Button();
+			this.label6 = new System.Windows.Forms.Label();
 			this.SuspendLayout();
 			// 
 			// usernameInput
 			// 
 			this.usernameInput.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.usernameInput.ForeColor = System.Drawing.Color.Black;
-			this.usernameInput.Location = new System.Drawing.Point(207, 111);
+			this.usernameInput.Location = new System.Drawing.Point(185, 111);
 			this.usernameInput.Name = "usernameInput";
-			this.usernameInput.Size = new System.Drawing.Size(334, 20);
+			this.usernameInput.Size = new System.Drawing.Size(397, 20);
 			this.usernameInput.TabIndex = 0;
 			// 
 			// passwordInput
 			// 
 			this.passwordInput.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.passwordInput.ForeColor = System.Drawing.Color.Black;
-			this.passwordInput.Location = new System.Drawing.Point(207, 136);
+			this.passwordInput.Location = new System.Drawing.Point(201, 136);
 			this.passwordInput.Name = "passwordInput";
 			this.passwordInput.PasswordChar = '*';
-			this.passwordInput.Size = new System.Drawing.Size(213, 20);
+			this.passwordInput.Size = new System.Drawing.Size(219, 20);
 			this.passwordInput.TabIndex = 1;
 			// 
 			// label1
@@ -96,7 +97,7 @@
 			this.label3.AutoSize = true;
 			this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
 			this.label3.ForeColor = System.Drawing.Color.Black;
-			this.label3.Location = new System.Drawing.Point(112, 34);
+			this.label3.Location = new System.Drawing.Point(66, 26);
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(553, 31);
 			this.label3.TabIndex = 5;
@@ -131,11 +132,20 @@
 			this.showPasswordButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.showPasswordButton.Location = new System.Drawing.Point(426, 134);
 			this.showPasswordButton.Name = "showPasswordButton";
-			this.showPasswordButton.Size = new System.Drawing.Size(115, 23);
+			this.showPasswordButton.Size = new System.Drawing.Size(156, 23);
 			this.showPasswordButton.TabIndex = 8;
-			this.showPasswordButton.Text = "Покажи Паролата";
+			this.showPasswordButton.Text = "Покажи\\Скрии Паролата";
 			this.showPasswordButton.UseVisualStyleBackColor = true;
 			this.showPasswordButton.Click += new System.EventHandler(this.showPasswordButton_Click);
+			// 
+			// label6
+			// 
+			this.label6.AutoSize = true;
+			this.label6.Location = new System.Drawing.Point(12, 327);
+			this.label6.Name = "label6";
+			this.label6.Size = new System.Drawing.Size(135, 13);
+			this.label6.TabIndex = 9;
+			this.label6.Text = "Made by Alex and Georgi©";
 			// 
 			// Form1
 			// 
@@ -143,6 +153,7 @@
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.White;
 			this.ClientSize = new System.Drawing.Size(686, 390);
+			this.Controls.Add(this.label6);
 			this.Controls.Add(this.showPasswordButton);
 			this.Controls.Add(this.label5);
 			this.Controls.Add(this.label4);
@@ -172,5 +183,6 @@
 		private Label label4;
 		private Label label5;
 		private Button showPasswordButton;
+		private Label label6;
 	}
 }
