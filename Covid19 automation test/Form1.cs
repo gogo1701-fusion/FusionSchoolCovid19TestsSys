@@ -27,9 +27,13 @@ namespace Covid19_automation_test
         private void button1_Click(object sender, EventArgs e)
         {
             bool result = checkPasswordAndUsername();
+            
+            //LoadingScreen ls = new LoadingScreen();
 
             if (result)
             {
+         
+
                 MainWindow mw = new MainWindow();
                 mw.Show();
 
