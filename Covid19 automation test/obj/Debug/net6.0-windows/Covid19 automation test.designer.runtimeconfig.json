@@ -12,7 +12,7 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\GogoPC\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\User\\.dotnet\\store\\|arch|\\|tfm|",
       "C:\\Users\\GogoPC\\.nuget\\packages",
       "D:\\New folder (7)\\NuGetPackages"
     ],
