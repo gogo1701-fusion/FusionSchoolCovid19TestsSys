@@ -26,9 +26,9 @@ namespace Covid19_automation_test
 			this.Text = "Инфо за клас: " + gis.Name;
 
 			this.studentsListBox.Items.Clear();
-			foreach (string student in gis.Students)
+			foreach (var student in gis.Students)
 			{
-				int addedItem = this.studentsListBox.Items.Add(student);
+				int addedItem = this.studentsListBox.Items.Add(student.Name);
 			}
 
 			this.Show();

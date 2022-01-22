@@ -101,6 +101,6 @@ namespace Covid19_automation_test
 	public class GradeInfoStruct
 	{
 		public string Name { get; set; }
-		public string[] Students { get; set; }
+		public TestInfo[] Students { get; set; }
 	}
 }

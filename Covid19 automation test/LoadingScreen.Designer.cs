@@ -119,9 +119,9 @@
             this.label4.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label4.Location = new System.Drawing.Point(12, 301);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(535, 54);
+            this.label4.Size = new System.Drawing.Size(536, 54);
             this.label4.TabIndex = 7;
-            this.label4.Text = "Нека врадителите изчезнат!";
+            this.label4.Text = "Нека врeдителите изчезнат!";
             this.label4.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // pictureBox5
