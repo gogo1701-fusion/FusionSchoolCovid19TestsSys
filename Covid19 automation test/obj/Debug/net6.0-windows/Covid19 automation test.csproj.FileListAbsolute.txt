@@ -58,3 +58,26 @@ D:\nothingInteresting\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\De
 D:\nothingInteresting\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\Debug\net6.0-windows\Covid19_automation_test.GradeInfo.resources
 D:\covid19\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\Debug\net6.0-windows\Covid19_automation_test.GradeInfo.resources
 D:\covid19\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\Debug\net6.0-windows\Covid19_automation_test.LoadingScreen.resources
+C:\Users\Bratl\Desktop\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\Debug\net6.0-windows\Covid19 automation test.csproj.AssemblyReference.cache
+C:\Users\Bratl\Desktop\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\Debug\net6.0-windows\Covid19_automation_test.Form1.resources
+C:\Users\Bratl\Desktop\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\Debug\net6.0-windows\Covid19_automation_test.GradeInfo.resources
+C:\Users\Bratl\Desktop\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\Debug\net6.0-windows\Covid19_automation_test.LoadingScreen.resources
+C:\Users\Bratl\Desktop\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\Debug\net6.0-windows\Covid19_automation_test.MainWindow.resources
+C:\Users\Bratl\Desktop\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\Debug\net6.0-windows\Covid19_automation_test.Properties.Resources.resources
+C:\Users\Bratl\Desktop\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\Debug\net6.0-windows\Covid19_automation_test.Testing.resources
+C:\Users\Bratl\Desktop\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\Debug\net6.0-windows\Covid19 automation test.csproj.GenerateResource.cache
+C:\Users\Bratl\Desktop\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\Debug\net6.0-windows\Covid19 automation test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bratl\Desktop\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\Debug\net6.0-windows\Covid19 automation test.AssemblyInfoInputs.cache
+C:\Users\Bratl\Desktop\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\Debug\net6.0-windows\Covid19 automation test.AssemblyInfo.cs
+C:\Users\Bratl\Desktop\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\Debug\net6.0-windows\Covid19 automation test.csproj.CoreCompileInputs.cache
+C:\Users\Bratl\Desktop\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\Debug\net6.0-windows\Covid19 automation test.dll
+C:\Users\Bratl\Desktop\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\Debug\net6.0-windows\ref\Covid19 automation test.dll
+C:\Users\Bratl\Desktop\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\Debug\net6.0-windows\Covid19 automation test.pdb
+C:\Users\Bratl\Desktop\FusionSchoolCovid19TestsSys\Covid19 automation test\bin\Debug\net6.0-windows\Covid19 automation test.exe
+C:\Users\Bratl\Desktop\FusionSchoolCovid19TestsSys\Covid19 automation test\bin\Debug\net6.0-windows\Covid19 automation test.deps.json
+C:\Users\Bratl\Desktop\FusionSchoolCovid19TestsSys\Covid19 automation test\bin\Debug\net6.0-windows\Covid19 automation test.runtimeconfig.json
+C:\Users\Bratl\Desktop\FusionSchoolCovid19TestsSys\Covid19 automation test\bin\Debug\net6.0-windows\Covid19 automation test.dll
+C:\Users\Bratl\Desktop\FusionSchoolCovid19TestsSys\Covid19 automation test\bin\Debug\net6.0-windows\ref\Covid19 automation test.dll
+C:\Users\Bratl\Desktop\FusionSchoolCovid19TestsSys\Covid19 automation test\bin\Debug\net6.0-windows\Covid19 automation test.pdb
+C:\Users\Bratl\Desktop\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\Debug\net6.0-windows\Covid19 automation test.genruntimeconfig.cache
+C:\Users\Bratl\Desktop\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\Debug\net6.0-windows\Covid19_automation_test.ReportWindow.resources

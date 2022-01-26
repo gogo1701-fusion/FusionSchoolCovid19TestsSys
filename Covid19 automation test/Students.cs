@@ -318,84 +318,84 @@ namespace Covid19_automation_test
 			new TestInfo()
 			{
 				Name = "Александър Билкиевич",
-		
+				Grade = Grades.gis2A
 			},
 
 			new TestInfo()
             {
-				"Ангел Блажев",
+				Name = "Ангел Блажев",
 				Grade = Grades.gis2A
             },
 
 			new TestInfo()
 			{
-				"Андрий Лазаров",
+				Name = "Андрий Лазаров",
 				Grade = Grades.gis2A
 			},
 
 			new TestInfo()
 			{
-				"Асен Станев",
+				Name = "Асен Станев",
 				Grade = Grades.gis2A
 			},
 
 			new TestInfo()
 			{
-				"Бранимир Арков",
+				Name = "Бранимир Арков",
 				Grade = Grades.gis2A
 			},
 
 			new TestInfo()
 			{
-				"Вихра  Петкова",
+				Name = "Вихра  Петкова",
 				Grade = Grades.gis2A
 			},
 
 			new TestInfo()
 			{
-				"Дария Киликчиева",
+				Name = "Дария Киликчиева",
 				Grade = Grades.gis2A
 			},
 
 			new TestInfo()
 			{
-				"Дмитрий Баландин",
+				Name = "Дмитрий Баландин",
 				Grade = Grades.gis2A
 			},
 
 			new TestInfo()
 			{
-				"Емил Димитров",
+				Name = "Емил Димитров",
 				Grade = Grades.gis2A
 			},
 
 			new TestInfo()
 			{
-				"Йоан Томас",
+				Name = "Йоан Томас",
 				Grade = Grades.gis2A
 			},
 
 			new TestInfo()
 			{
-				"Лъчезар",
+				Name = "Лъчезар",
 				Grade = Grades.gis2A
 			},
 
 			new TestInfo()
 			{
-				"Мария Варадинова",
+				Name = "Мария Варадинова",
 				Grade = Grades.gis2A
 			},
 
 			new TestInfo()
 			{
-				"Стефан Иванов",
+				Name = "Стефан Иванов",
 				Grade = Grades.gis2A
 			},
 
 			new TestInfo()
 			{
-				"Стоян Апостолов",
+				Name = "Стоян Апостолов",
 				Grade = Grades.gis2A
 			}
 

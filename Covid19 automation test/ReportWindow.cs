@@ -10,21 +10,16 @@ using System.Windows.Forms;
 
 namespace Covid19_automation_test
 {
-    public partial class LoadingScreen : Form
+    public partial class ReportWindow : Form
     {
-        public LoadingScreen()
+        public ReportWindow()
         {
             InitializeComponent();
         }
 
-        private void LoadingScreen_Load(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            Thread.Sleep(5000);
-
-            MainWindow mw = new MainWindow();
-            mw.Show();
-            
-            this.Hide();
+            this.Close();
         }
     }
 }

@@ -50,16 +50,10 @@ namespace Covid19_automation_test
 			Students = Students.studentsInfosGis3B
 		};
 
-		public static GradeInfoStruct gis3V = new GradeInfoStruct()
-		{
-			Name = "3В",
-			Students = Students.studentsInfosGis3V
-		};
-
 		public static GradeInfoStruct gis4A = new GradeInfoStruct()
 		{
 			Name = "4А",
-			Students = Students.studentsInfosGis4А
+			Students = Students.studentsInfosGis4A
 		};
 
 		public static GradeInfoStruct gis4B = new GradeInfoStruct()
@@ -77,7 +71,7 @@ namespace Covid19_automation_test
 		public static GradeInfoStruct gis6A = new GradeInfoStruct()
 		{
 			Name = "6А",
-			Students = Students.studentsInfosGis6A
+			Students = Students.studentsInfosGis6А
 		};
 
 		public static GradeInfoStruct gis6B = new GradeInfoStruct()
@@ -89,7 +83,7 @@ namespace Covid19_automation_test
 		public static GradeInfoStruct gis7A = new GradeInfoStruct()
 		{
 			Name = "7А",
-			Students = Students.studentsInfosGis7A
+			Students = Students.studentsInfosGis7А
 		};
 	}
 }

@@ -14,12 +14,19 @@ namespace Covid19_automation_test
     {
         public TestInfo m_TestInfo;
 
-        public Testing(TestInfo ti)
+        public Testing()
         {
             InitializeComponent();
+        }
+
+        public void showWindow(TestInfo ti)
+        {
             this.m_TestInfo = ti;
 
             this.nameLabel.Text = ti.Name;
+            this.gradeLabel.Text = ti.Grade.ToString();
+
+            this.Show();
         }
 
         private void toolStripButton1_Click(object sender, EventArgs e)

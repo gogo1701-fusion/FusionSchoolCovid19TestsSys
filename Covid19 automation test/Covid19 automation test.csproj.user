@@ -13,6 +13,9 @@
     <Compile Update="MainWindow.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="ReportWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Testing.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -14,7 +14,7 @@ namespace Covid19_automation_test
 	{
 		static TestInfo ti = new TestInfo() { Name = "Nqkoj nqkojsi" };
 
-		GradeInfo giWindow = new GradeInfo(Grades.gisPK);
+		//GradeInfo giWindow = new GradeInfo(Grades.gisPK);
 		public MainWindow()
 		{
 			InitializeComponent();
@@ -30,59 +30,55 @@ namespace Covid19_automation_test
 			{
 				if (castedSender.Text == "ПК")
 				{
-					giWindow.showWindow(Grades.gisPK);
+					GradeInfo.ShowWindow(Grades.gisPK, castedSender);
 				
 				} else if (castedSender.Text == "1А")
 				{
-					giWindow.showWindow(Grades.gis1A);
+					GradeInfo.ShowWindow(Grades.gis1A, castedSender);
 
 				} else if (castedSender.Text == "1Б")
 				{
-					giWindow.showWindow(Grades.gis1B);
+					GradeInfo.ShowWindow(Grades.gis1B, castedSender);
 
 				} else if (castedSender.Text == "1В")
 				{
-					giWindow.showWindow(Grades.gis1V);
+					GradeInfo.ShowWindow(Grades.gis1V, castedSender);
 
 				} else if (castedSender.Text == "2А")
 				{
-					giWindow.showWindow(Grades.gis2A);
+					GradeInfo.ShowWindow(Grades.gis2A, castedSender);
 
 				} else if (castedSender.Text == "3А")
 				{
-					giWindow.showWindow(Grades.gis3A);
+					GradeInfo.ShowWindow(Grades.gis3A, castedSender);
 
 				} else if (castedSender.Text == "3Б")
 				{
-					giWindow.showWindow(Grades.gis3B);
-
-				} else if (castedSender.Text == "3В")
-				{
-					giWindow.showWindow(Grades.gis3V);
+					GradeInfo.ShowWindow(Grades.gis3B, castedSender);
 
 				} else if (castedSender.Text == "4А")
 				{
-					giWindow.showWindow(Grades.gis4A);
+					GradeInfo.ShowWindow(Grades.gis4A, castedSender);
 
 				} else if (castedSender.Text == "4Б")
 				{
-					giWindow.showWindow(Grades.gis4B);
+					GradeInfo.ShowWindow(Grades.gis4B, castedSender);
 
 				} else if (castedSender.Text == "5А")
 				{
-					giWindow.showWindow(Grades.gis5A);
+					GradeInfo.ShowWindow(Grades.gis5A, castedSender);
 
 				} else if (castedSender.Text == "6А")
 				{
-					giWindow.showWindow(Grades.gis6A);
+					GradeInfo.ShowWindow(Grades.gis6A, castedSender);
 
 				} else if (castedSender.Text == "6Б")
 				{
-					giWindow.showWindow(Grades.gis6B);
+					GradeInfo.ShowWindow(Grades.gis6B, castedSender);
 
 				} else if (castedSender.Text == "7А")
 				{
-					giWindow.showWindow(Grades.gis7A);
+					GradeInfo.ShowWindow(Grades.gis7A, castedSender);
 
 				}
 
@@ -103,4 +99,10 @@ namespace Covid19_automation_test
 		public string Name { get; set; }
 		public TestInfo[] Students { get; set; }
 	}
+
+	public class StudentDisplayCard
+    {
+		public TestInfo ti { get; set; }
+		public string cardName { get; set; }
+    }
 }

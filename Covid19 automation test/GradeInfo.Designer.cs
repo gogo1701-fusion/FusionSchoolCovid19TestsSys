@@ -28,29 +28,30 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.gradeNameLabel = new System.Windows.Forms.Label();
-			this.studentsListBox = new System.Windows.Forms.ListBox();
-			this.SuspendLayout();
-			// 
-			// gradeNameLabel
-			// 
-			this.gradeNameLabel.AutoSize = true;
-			this.gradeNameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-			this.gradeNameLabel.Location = new System.Drawing.Point(12, 9);
-			this.gradeNameLabel.Name = "gradeNameLabel";
-			this.gradeNameLabel.Size = new System.Drawing.Size(64, 25);
-			this.gradeNameLabel.TabIndex = 0;
-			this.gradeNameLabel.Text = "label1";
-			// 
-			// studentsListBox
-			// 
-			this.studentsListBox.BackColor = System.Drawing.Color.Silver;
-			this.studentsListBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-			this.studentsListBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-			this.studentsListBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-			this.studentsListBox.FormattingEnabled = true;
-			this.studentsListBox.ItemHeight = 25;
-			this.studentsListBox.Items.AddRange(new object[] {
+            this.gradeNameLabel = new System.Windows.Forms.Label();
+            this.studentsListBox = new System.Windows.Forms.ListBox();
+            this.SuspendLayout();
+            // 
+            // gradeNameLabel
+            // 
+            this.gradeNameLabel.AutoSize = true;
+            this.gradeNameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.gradeNameLabel.Location = new System.Drawing.Point(14, 10);
+            this.gradeNameLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.gradeNameLabel.Name = "gradeNameLabel";
+            this.gradeNameLabel.Size = new System.Drawing.Size(64, 25);
+            this.gradeNameLabel.TabIndex = 0;
+            this.gradeNameLabel.Text = "label1";
+            // 
+            // studentsListBox
+            // 
+            this.studentsListBox.BackColor = System.Drawing.Color.Silver;
+            this.studentsListBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.studentsListBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.studentsListBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.studentsListBox.FormattingEnabled = true;
+            this.studentsListBox.ItemHeight = 25;
+            this.studentsListBox.Items.AddRange(new object[] {
             "dsff",
             "ddsf",
             "sdf",
@@ -66,25 +67,28 @@
             "s",
             "f",
             "s"});
-			this.studentsListBox.Location = new System.Drawing.Point(12, 37);
-			this.studentsListBox.Name = "studentsListBox";
-			this.studentsListBox.Size = new System.Drawing.Size(776, 400);
-			this.studentsListBox.TabIndex = 1;
-			// 
-			// GradeInfo
-			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(800, 450);
-			this.Controls.Add(this.studentsListBox);
-			this.Controls.Add(this.gradeNameLabel);
-			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-			this.Name = "GradeInfo";
-			this.Text = "GradeInfo";
-			this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.GradeInfo_FormClosing);
-			this.MaximizeBox = false;
-			this.ResumeLayout(false);
-			this.PerformLayout();
+            this.studentsListBox.Location = new System.Drawing.Point(14, 43);
+            this.studentsListBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.studentsListBox.Name = "studentsListBox";
+            this.studentsListBox.Size = new System.Drawing.Size(905, 450);
+            this.studentsListBox.TabIndex = 1;
+            this.studentsListBox.MouseClick += new System.Windows.Forms.MouseEventHandler(this.studentsListBox_MouseClick);
+            // 
+            // GradeInfo
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(933, 519);
+            this.Controls.Add(this.studentsListBox);
+            this.Controls.Add(this.gradeNameLabel);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.MaximizeBox = false;
+            this.Name = "GradeInfo";
+            this.Text = "Ученици в класовете";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.GradeInfo_FormClosing);
+            this.ResumeLayout(false);
+            this.PerformLayout();
 
 		}
 
