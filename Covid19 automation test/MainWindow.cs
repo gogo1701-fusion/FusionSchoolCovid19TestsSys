@@ -14,6 +14,7 @@ namespace Covid19_automation_test
 	{
 		static TestInfo ti = new TestInfo() { Name = "Nqkoj nqkojsi" };
 
+
 		//GradeInfo giWindow = new GradeInfo(Grades.gisPK);
 		public MainWindow()
 		{
@@ -88,10 +89,12 @@ namespace Covid19_automation_test
 		}
 	}
 
+
 	public class TestInfo
 	{
 		public string Name { get; set; }
 		public GradeInfoStruct Grade { get; set; }
+		public ETestCondition TestCondition { get; set; }
 	}
 
 	public class GradeInfoStruct
@@ -105,4 +108,10 @@ namespace Covid19_automation_test
 		public TestInfo ti { get; set; }
 		public string cardName { get; set; }
     }
+	
+	public enum ETestCondition
+	{
+		Positive,
+		Negative
+	}
 }

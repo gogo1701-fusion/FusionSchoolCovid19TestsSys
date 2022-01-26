@@ -81,3 +81,5 @@ C:\Users\Bratl\Desktop\FusionSchoolCovid19TestsSys\Covid19 automation test\bin\D
 C:\Users\Bratl\Desktop\FusionSchoolCovid19TestsSys\Covid19 automation test\bin\Debug\net6.0-windows\Covid19 automation test.pdb
 C:\Users\Bratl\Desktop\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\Debug\net6.0-windows\Covid19 automation test.genruntimeconfig.cache
 C:\Users\Bratl\Desktop\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\Debug\net6.0-windows\Covid19_automation_test.ReportWindow.resources
+D:\covid19\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\Debug\net6.0-windows\Covid19_automation_test.ReportWindow.resources
+D:\covid19\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\Debug\net6.0-windows\Covid19_automation_test.TestConditionDialog.resources

@@ -34,7 +34,7 @@
             this.пращанеНаТестовеПрезЕмайлToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.изходToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nameLabel = new System.Windows.Forms.Label();
-            this.gradeLabel = new System.Windows.Forms.Label();
+            this.startTest = new System.Windows.Forms.Button();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -65,6 +65,7 @@
             this.пращанеНаТестовеПрезЕмайлToolStripMenuItem.Name = "пращанеНаТестовеПрезЕмайлToolStripMenuItem";
             this.пращанеНаТестовеПрезЕмайлToolStripMenuItem.Size = new System.Drawing.Size(252, 22);
             this.пращанеНаТестовеПрезЕмайлToolStripMenuItem.Text = "Пращане на тестове през емайл";
+            this.пращанеНаТестовеПрезЕмайлToolStripMenuItem.Click += new System.EventHandler(this.пращанеНаТестовеПрезЕмайлToolStripMenuItem_Click);
             // 
             // изходToolStripMenuItem
             // 
@@ -76,31 +77,31 @@
             // nameLabel
             // 
             this.nameLabel.AutoSize = true;
-            this.nameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.nameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.nameLabel.Location = new System.Drawing.Point(13, 25);
             this.nameLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.nameLabel.Name = "nameLabel";
-            this.nameLabel.Size = new System.Drawing.Size(109, 25);
+            this.nameLabel.Size = new System.Drawing.Size(361, 76);
             this.nameLabel.TabIndex = 1;
             this.nameLabel.Text = "nameLabel";
             // 
-            // gradeLabel
+            // startTest
             // 
-            this.gradeLabel.AutoSize = true;
-            this.gradeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.gradeLabel.Location = new System.Drawing.Point(13, 60);
-            this.gradeLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.gradeLabel.Name = "gradeLabel";
-            this.gradeLabel.Size = new System.Drawing.Size(80, 17);
-            this.gradeLabel.TabIndex = 2;
-            this.gradeLabel.Text = "gradeLabel";
+            this.startTest.Font = new System.Drawing.Font("Segoe UI", 50F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.startTest.Location = new System.Drawing.Point(13, 287);
+            this.startTest.Name = "startTest";
+            this.startTest.Size = new System.Drawing.Size(775, 140);
+            this.startTest.TabIndex = 2;
+            this.startTest.Text = "Започни Тест";
+            this.startTest.UseVisualStyleBackColor = true;
+            this.startTest.Click += new System.EventHandler(this.startTest_Click);
             // 
             // Testing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.gradeLabel);
+            this.Controls.Add(this.startTest);
             this.Controls.Add(this.nameLabel);
             this.Controls.Add(this.toolStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -122,6 +123,6 @@
         private ToolStripMenuItem пращанеНаТестовеПрезЕмайлToolStripMenuItem;
         private ToolStripMenuItem изходToolStripMenuItem;
 		private Label nameLabel;
-        private Label gradeLabel;
+        private Button startTest;
     }
 }

@@ -24,7 +24,6 @@ namespace Covid19_automation_test
             this.m_TestInfo = ti;
 
             this.nameLabel.Text = ti.Name;
-            this.gradeLabel.Text = ti.Grade.ToString();
 
             this.Show();
         }
@@ -37,6 +36,17 @@ namespace Covid19_automation_test
         private void изходToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void startTest_Click(object sender, EventArgs e)
+        {
+            
+            MessageBox.Show("Тестът за" + ti.Name + "започна. Моля изчакайте да свърши.");
+        }
+
+        private void пращанеНаТестовеПрезЕмайлToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

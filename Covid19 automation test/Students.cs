@@ -322,10 +322,10 @@ namespace Covid19_automation_test
 			},
 
 			new TestInfo()
-            {
+			{
 				Name = "Ангел Блажев",
 				Grade = Grades.gis2A
-            },
+			},
 
 			new TestInfo()
 			{
@@ -377,12 +377,12 @@ namespace Covid19_automation_test
 
 			new TestInfo()
 			{
-				Name = "Лъчезар",
+				Name = " Лъчезар",
 				Grade = Grades.gis2A
 			},
 
 			new TestInfo()
-			{
+			{ 
 				Name = "Мария Варадинова",
 				Grade = Grades.gis2A
 			},
