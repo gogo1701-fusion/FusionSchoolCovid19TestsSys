@@ -73,12 +73,12 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(480, 21);
+            this.label1.Size = new System.Drawing.Size(492, 20);
             this.label1.TabIndex = 15;
-            this.label1.Text = "Напишете съобщение за грешка, То ще изпрати към създателите.";
+            this.label1.Text = "Напишете съобщение за грешка - то ще се изпрати към създателите.";
             // 
             // ReportWindow
             // 

@@ -89,7 +89,6 @@ namespace Covid19_automation_test
 		}
 	}
 
-
 	public class TestInfo
 	{
 		public string Name { get; set; }
@@ -112,6 +111,7 @@ namespace Covid19_automation_test
 	public enum ETestCondition
 	{
 		Positive,
-		Negative
+		Negative,
+		Undefined
 	}
 }

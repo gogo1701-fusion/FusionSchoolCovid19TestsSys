@@ -77,20 +77,21 @@
             // nameLabel
             // 
             this.nameLabel.AutoSize = true;
-            this.nameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.nameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.nameLabel.Location = new System.Drawing.Point(13, 25);
             this.nameLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.nameLabel.Name = "nameLabel";
-            this.nameLabel.Size = new System.Drawing.Size(361, 76);
+            this.nameLabel.Size = new System.Drawing.Size(147, 31);
             this.nameLabel.TabIndex = 1;
             this.nameLabel.Text = "nameLabel";
+            this.nameLabel.TextAlign = System.Drawing.ContentAlignment.BottomRight;
             // 
             // startTest
             // 
-            this.startTest.Font = new System.Drawing.Font("Segoe UI", 50F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.startTest.Location = new System.Drawing.Point(13, 287);
+            this.startTest.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.startTest.Location = new System.Drawing.Point(13, 376);
             this.startTest.Name = "startTest";
-            this.startTest.Size = new System.Drawing.Size(775, 140);
+            this.startTest.Size = new System.Drawing.Size(775, 51);
             this.startTest.TabIndex = 2;
             this.startTest.Text = "Започни Тест";
             this.startTest.UseVisualStyleBackColor = true;

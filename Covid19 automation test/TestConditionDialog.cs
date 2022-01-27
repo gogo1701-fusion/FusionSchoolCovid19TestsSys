@@ -12,13 +12,41 @@ namespace Covid19_automation_test
 {
     public partial class TestConditionDialog : Form
     {
-        public TestConditionDialog()
+        private ETestCondition testCondition;
+
+        public TestConditionDialog(TestInfo ti)
         {
             InitializeComponent();
 
-            this.
+            this.label1.Text = "Изберете резултата от теста на " + ti.Name + ":";
         }
 
+        public ETestCondition getTestCondition()
+        {
+            if (testResultDropdown.Text == "Позитивен")
+            {
+                return ETestCondition.Positive;
 
+            } else if (testResultDropdown.Text == "Отрицателен")
+            {
+                return ETestCondition.Negative;
+            }
+
+            return ETestCondition.Undefined;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (getTestCondition() != ETestCondition.Undefined)
+            {
+                // Do after test finished stuff here.
+                /* Example That prints the selected test condition: */MessageBox.Show(Utils.TranslateTestEnum(getTestCondition()));
+
+            } else
+            {
+                MessageBox.Show("Не е избран вида на теста! Изберете дали е положителен или отрицателен и опитайте пак.");
+            }
+
+        }
     }
 }

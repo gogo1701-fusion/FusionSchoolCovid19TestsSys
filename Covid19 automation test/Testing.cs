@@ -14,6 +14,8 @@ namespace Covid19_automation_test
     {
         public TestInfo m_TestInfo;
 
+        private TestInfo ti;
+
         public Testing()
         {
             InitializeComponent();
@@ -21,9 +23,11 @@ namespace Covid19_automation_test
 
         public void showWindow(TestInfo ti)
         {
+            this.ti = ti;
+
             this.m_TestInfo = ti;
 
-            this.nameLabel.Text = ti.Name;
+            this.nameLabel.Text = "Име на ученик: " + ti.Name;
 
             this.Show();
         }
@@ -41,7 +45,9 @@ namespace Covid19_automation_test
         private void startTest_Click(object sender, EventArgs e)
         {
             
-            MessageBox.Show("Тестът за" + ti.Name + "започна. Моля изчакайте да свърши.");
+            MessageBox.Show("Тестът за " + ti.Name + " започна. Моля изчакайте да свърши.");
+            TestConditionDialog tcd = new TestConditionDialog(ti);
+            tcd.Show();
         }
 
         private void пращанеНаТестовеПрезЕмайлToolStripMenuItem_Click(object sender, EventArgs e)
