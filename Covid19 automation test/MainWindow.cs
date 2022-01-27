@@ -94,6 +94,7 @@ namespace Covid19_automation_test
 		public string Name { get; set; }
 		public GradeInfoStruct Grade { get; set; }
 		public ETestCondition TestCondition { get; set; }
+		public bool hasTakenTest { get; set; }
 	}
 
 	public class GradeInfoStruct

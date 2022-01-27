@@ -13,10 +13,6 @@ namespace Covid19_automation_test
         public Form1()
         {
             InitializeComponent();
-
-            StreamWriter sw = new StreamWriter(Application.StartupPath + "\\files\\" + "test.txt");
-            sw.WriteLine("This text is written by our app.");
-            sw.Close();
         }
 
         private void label1_Click(object sender, EventArgs e)

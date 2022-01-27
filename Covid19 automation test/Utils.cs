@@ -21,5 +21,12 @@ namespace Covid19_automation_test
 
             return "";
         }
+
+        public static void WriteStudentsLine(string newText)
+        {
+            StreamWriter sw = new StreamWriter(Application.StartupPath + "\\files\\" + "finishedStudents.txt");
+            sw.WriteLine(newText);
+            sw.Close();
+        }
     }
 }
