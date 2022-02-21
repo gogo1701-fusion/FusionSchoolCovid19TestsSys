@@ -51,7 +51,7 @@ namespace Covid19_automation_test
             {
                 // Do after test finished stuff here.
                 /* Example That prints the selected test condition: */MessageBox.Show(Utils.TranslateTestEnum(getTestCondition()));
-                Utils.WriteStudentsLine(getTestOutput());
+                //Utils.WriteStudentsLine(getTestOutput());
             } else
             {
                 MessageBox.Show("Не е избран вида на теста! Изберете дали е положителен или отрицателен и опитайте пак.");

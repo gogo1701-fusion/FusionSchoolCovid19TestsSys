@@ -88,7 +88,7 @@ namespace Covid19_automation_test
 
 		}
 	}
-
+	[Serializable]
 	public class TestInfo
 	{
 		public string Name { get; set; }
