@@ -28,51 +28,55 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.testResultDropdown = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.posButton = new System.Windows.Forms.Button();
+            this.negButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(12, 205);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(405, 28);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Потвърди";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // testResultDropdown
-            // 
-            this.testResultDropdown.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.testResultDropdown.FormattingEnabled = true;
-            this.testResultDropdown.Items.AddRange(new object[] {
-            "Позитивен",
-            "Отрицателен"});
-            this.testResultDropdown.Location = new System.Drawing.Point(12, 69);
-            this.testResultDropdown.Name = "testResultDropdown";
-            this.testResultDropdown.Size = new System.Drawing.Size(223, 23);
-            this.testResultDropdown.TabIndex = 1;
-            this.testResultDropdown.UseWaitCursor = true;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 15);
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(12, 23);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(176, 15);
+            this.label1.Size = new System.Drawing.Size(293, 28);
             this.label1.TabIndex = 2;
             this.label1.Text = "Изберете резултата от теста на";
+            // 
+            // posButton
+            // 
+            this.posButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.posButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.posButton.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.posButton.Location = new System.Drawing.Point(12, 68);
+            this.posButton.Name = "posButton";
+            this.posButton.Size = new System.Drawing.Size(185, 153);
+            this.posButton.TabIndex = 3;
+            this.posButton.Text = "Позитивен";
+            this.posButton.UseVisualStyleBackColor = true;
+            this.posButton.Click += new System.EventHandler(this.posButton_Click);
+            // 
+            // negButton
+            // 
+            this.negButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.negButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.negButton.Font = new System.Drawing.Font("Segoe UI", 19F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.negButton.Location = new System.Drawing.Point(219, 68);
+            this.negButton.Name = "negButton";
+            this.negButton.Size = new System.Drawing.Size(185, 153);
+            this.negButton.TabIndex = 4;
+            this.negButton.Text = "Отрицателен";
+            this.negButton.UseVisualStyleBackColor = true;
+            this.negButton.Click += new System.EventHandler(this.negButton_Click);
             // 
             // TestConditionDialog
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(429, 245);
+            this.Controls.Add(this.negButton);
+            this.Controls.Add(this.posButton);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.testResultDropdown);
-            this.Controls.Add(this.button1);
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(445, 284);
             this.MinimumSize = new System.Drawing.Size(445, 284);
@@ -86,7 +90,8 @@
         #endregion
 
         private Button button1;
-        private ComboBox testResultDropdown;
         private Label label1;
+        private Button posButton;
+        private Button negButton;
     }
 }

@@ -60,13 +60,6 @@
             this.toolStripDropDownButton1.Size = new System.Drawing.Size(57, 22);
             this.toolStripDropDownButton1.Text = "Опций";
             // 
-            // пращанеНаТестовеПрезЕмайлToolStripMenuItem
-            // 
-            this.пращанеНаТестовеПрезЕмайлToolStripMenuItem.Name = "пращанеНаТестовеПрезЕмайлToolStripMenuItem";
-            this.пращанеНаТестовеПрезЕмайлToolStripMenuItem.Size = new System.Drawing.Size(252, 22);
-            this.пращанеНаТестовеПрезЕмайлToolStripMenuItem.Text = "Пращане на тестове през емайл";
-            this.пращанеНаТестовеПрезЕмайлToolStripMenuItem.Click += new System.EventHandler(this.пращанеНаТестовеПрезЕмайлToolStripMenuItem_Click);
-            // 
             // изходToolStripMenuItem
             // 
             this.изходToolStripMenuItem.Name = "изходToolStripMenuItem";

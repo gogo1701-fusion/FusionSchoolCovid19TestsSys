@@ -12,13 +12,13 @@ namespace Covid19_automation_test
 		{
 			new TestInfo()
 			{
-				Name = "Ян Бърдаров",
+				Name = "Албена Ангелова",
 				Grade = Grades.gisPK
 			},
 
 			new TestInfo()
             {
-				Name = "Албена Ангелова",
+				Name = "Алекс Димитров",
 				Grade = Grades.gisPK
 			},
 
@@ -84,7 +84,7 @@ namespace Covid19_automation_test
 
 			new TestInfo()
 			{
-				Name = "Теодор Цеков",
+				Name = "Ян Бърдаров",
 				Grade = Grades.gisPK
 			},
 		};
@@ -93,18 +93,12 @@ namespace Covid19_automation_test
 		{
 			new TestInfo()
 			{
-				Name = "Теодор Джалалиев",
-				Grade = Grades.gis1A
-			},
-
-			new TestInfo()
-            {
 				Name = "Айлита Варданян",
 				Grade = Grades.gis1A
 			},
 
 			new TestInfo()
-			{
+            {
 				Name = "Александър Друмев",
 				Grade = Grades.gis1A
 			},
@@ -135,12 +129,6 @@ namespace Covid19_automation_test
 
 			new TestInfo()
 			{
-				Name = "Андреа Грауи",
-				Grade = Grades.gis1A
-			},
-
-			new TestInfo()
-			{
 				Name = "Давид Русатев",
 				Grade = Grades.gis1A
 			},
@@ -165,15 +153,16 @@ namespace Covid19_automation_test
 
 			new TestInfo()
 			{
-				Name = "Никола  Гелов",
+				Name = "Никола Гелов",
 				Grade = Grades.gis1A
 			},
 
 			new TestInfo()
 			{
-				Name = "Андреа Грауи",
+				Name = "Теодор Джалалиев",
 				Grade = Grades.gis1A
 			}
+
 		};
 
 		public static TestInfo[] studentsInfosGis1B = new TestInfo[]
@@ -238,6 +227,7 @@ namespace Covid19_automation_test
 			new TestInfo()
 			{
 				Name = "Бранимир Йорданов",
+				Grade = Grades.gis1V
 			},
 
 			new TestInfo()
@@ -564,6 +554,7 @@ namespace Covid19_automation_test
 			new TestInfo()
 			{
 				Name = "Адриан Петров",
+				Grade = Grades.gis4A
 		
 			},
 
@@ -581,7 +572,7 @@ namespace Covid19_automation_test
 
 			new TestInfo()
 			{
-				Name = "Йоанн Русев",
+				Name = "Йоан Русев",
 				Grade = Grades.gis4A
 			},
 

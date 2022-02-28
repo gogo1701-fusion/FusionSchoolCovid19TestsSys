@@ -87,3 +87,6 @@ C:\Users\Bratl\Desktop\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\D
 C:\Users\Bratl\Desktop\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\Debug\net6.0-windows\Covid19_automation_test.DesignedButton.resources
 C:\Users\Bratl\Desktop\FusionSchoolCovid19TestsSys\Covid19 automation test\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
 C:\Users\Bratl\Desktop\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\Debug\net6.0-windows\Covid19 automation test.csproj.CopyComplete
+D:\covid19\FusionSchoolCovid19TestsSys\Covid19 automation test\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+D:\covid19\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\Debug\net6.0-windows\Covid19_automation_test.DesignedButton.resources
+D:\covid19\FusionSchoolCovid19TestsSys\Covid19 automation test\obj\Debug\net6.0-windows\Covid19 automation test.csproj.CopyComplete

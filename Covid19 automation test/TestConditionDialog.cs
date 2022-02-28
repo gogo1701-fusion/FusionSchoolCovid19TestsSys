@@ -20,43 +20,26 @@ namespace Covid19_automation_test
         {
             InitializeComponent();
 
-            this.label1.Text = "Изберете резултата от теста на " + ti.Name + ":"; 
+            this.label1.Text = "Изберете резултата от теста на " + ti.Name + ":";
             this.ti = ti;
         }
 
-        public ETestCondition getTestCondition()
+        private void posButton_Click(object sender, EventArgs e)
         {
-            if (testResultDropdown.Text == "Позитивен")
-            {
-                return ETestCondition.Positive;
-
-            } else if (testResultDropdown.Text == "Отрицателен")
-            {
-                return ETestCondition.Negative;
-            }
-
-            return ETestCondition.Undefined;
+            testCondition = ETestCondition.Positive;
+            finishTest();
         }
 
-        public string getTestOutput()
+        private void negButton_Click(object sender, EventArgs e)
         {
-            // The output will be like Александър Бучков: Позитивен
-
-            return ti.Name + ": " + Utils.TranslateTestEnum(getTestCondition());
+            testCondition = ETestCondition.Negative;
+            finishTest();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        public void finishTest()
         {
-            if (getTestCondition() != ETestCondition.Undefined)
-            {
-                // Do after test finished stuff here.
-                /* Example That prints the selected test condition: */MessageBox.Show(Utils.TranslateTestEnum(getTestCondition()));
-                //Utils.WriteStudentsLine(getTestOutput());
-            } else
-            {
-                MessageBox.Show("Не е избран вида на теста! Изберете дали е положителен или отрицателен и опитайте пак.");
-            }
-
+            // Executes after the test finishes
+            MessageBox.Show(Utils.TranslateTestEnum(testCondition));
         }
     }
 }
