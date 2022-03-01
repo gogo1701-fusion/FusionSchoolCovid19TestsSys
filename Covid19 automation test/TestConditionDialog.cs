@@ -15,13 +15,15 @@ namespace Covid19_automation_test
         private ETestCondition testCondition;
 
         private TestInfo ti;
+        private Testing testing;
 
-        public TestConditionDialog(TestInfo ti)
+        public TestConditionDialog(TestInfo ti, Testing testing)
         {
             InitializeComponent();
 
-            this.label1.Text = "Изберете резултата от теста на " + ti.Name + ":";
+            label1.Text = "Изберете резултата от теста на " + ti.Name + ":";
             this.ti = ti;
+            this.testing = testing;
         }
 
         private void posButton_Click(object sender, EventArgs e)
@@ -39,7 +41,11 @@ namespace Covid19_automation_test
         public void finishTest()
         {
             // Executes after the test finishes
-            MessageBox.Show(Utils.TranslateTestEnum(testCondition));
+            MessageBox.Show("Тестът на " + ti.Name + " Завърши.");
+            Utils.WriteFinishedStudent(testCondition, ti);
+
+            testing.Close();
+            Close();
         }
     }
 }

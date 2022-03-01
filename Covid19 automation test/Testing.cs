@@ -46,7 +46,7 @@ namespace Covid19_automation_test
         {
             
             MessageBox.Show("Тестът за " + ti.Name + " започна. Моля изчакайте да свърши.");
-            TestConditionDialog tcd = new TestConditionDialog(ti);
+            TestConditionDialog tcd = new TestConditionDialog(ti, this);
             tcd.Show();
         }
 

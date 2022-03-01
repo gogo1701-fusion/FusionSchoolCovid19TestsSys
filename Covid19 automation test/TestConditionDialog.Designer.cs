@@ -81,7 +81,7 @@
             this.MaximumSize = new System.Drawing.Size(445, 284);
             this.MinimumSize = new System.Drawing.Size(445, 284);
             this.Name = "TestConditionDialog";
-            this.Text = "TestConditionDialog";
+            this.Text = "Информация за Тест";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -9,6 +9,7 @@ namespace Covid19_automation_test
         public string username = "Fusion";
         public string password = "FusionTests1488!#";
 
+        public bool isInDebugMode = true;
 
         public Form1()
         {
@@ -24,17 +25,21 @@ namespace Covid19_automation_test
         {
             bool result = checkPasswordAndUsername();
 
-
-            if (result)
+            if (!isInDebugMode)
             {
-                LoadingScreen ls = new LoadingScreen();
+                if (result)
+                {
+                    LoadingScreen ls = new LoadingScreen(this);
+                    ls.Show();
+                }
+                else if (!result)
+                {
+                    MessageBox.Show("Incorrect Password or Username! If you don`t know the Password or Username, Contact us.", "Incorrect Password or Username!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            } else
+            {
+                LoadingScreen ls = new LoadingScreen(this);
                 ls.Show();
-
-                this.Hide();
-            }
-            else if (!result)
-            {
-                MessageBox.Show("Incorrect Password or Username! If you don`t know the Password or Username, Contact us.", "Incorrect Password or Username!", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

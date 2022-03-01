@@ -12,19 +12,24 @@ namespace Covid19_automation_test
 {
     public partial class LoadingScreen : Form
     {
-        public LoadingScreen()
+        Form1 f1;
+
+        public LoadingScreen(Form1 f1)
         {
             InitializeComponent();
+            this.f1 = f1;
         }
 
         private void LoadingScreen_Load(object sender, EventArgs e)
         {
-            Thread.Sleep(5000);
+            //f1.Close();
+            
+            //Thread.Sleep(5000);
 
             MainWindow mw = new MainWindow();
             mw.Show();
             
-            this.Hide();
+            //this.Close();
         }
     }
 }
