@@ -48,23 +48,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\GogoPC\\.nuget\\packages\\": {},
-    "D:\\New folder (7)\\NuGetPackages": {}
+    "C:\\Users\\Bratl\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\covid19\\FusionSchoolCovid19TestsSys\\Covid19 automation test\\Covid19 automation test.csproj",
+      "projectUniqueName": "C:\\Users\\Bratl\\Desktop\\FusionSchoolCovid19TestsSys\\Covid19 automation test\\Covid19 automation test.csproj",
       "projectName": "Covid19 automation test",
-      "projectPath": "D:\\covid19\\FusionSchoolCovid19TestsSys\\Covid19 automation test\\Covid19 automation test.csproj",
-      "packagesPath": "C:\\Users\\GogoPC\\.nuget\\packages\\",
-      "outputPath": "D:\\covid19\\FusionSchoolCovid19TestsSys\\Covid19 automation test\\obj\\",
+      "projectPath": "C:\\Users\\Bratl\\Desktop\\FusionSchoolCovid19TestsSys\\Covid19 automation test\\Covid19 automation test.csproj",
+      "packagesPath": "C:\\Users\\Bratl\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Bratl\\Desktop\\FusionSchoolCovid19TestsSys\\Covid19 automation test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\New folder (7)\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\GogoPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Bratl\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
