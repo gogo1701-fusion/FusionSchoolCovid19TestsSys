@@ -61,7 +61,12 @@ namespace Covid19_automation_test
 
         private void studentsListBox_MouseClick(object sender, MouseEventArgs e)
         {
-			new Testing().showWindow(gis.Students[this.studentsListBox.SelectedIndex]); // index your mom 
+			new Testing().showWindow(gis.Students[this.studentsListBox.SelectedIndex]); // index your mom
         }
+
+        private void sendEmail_Click(object sender, EventArgs e)
+        {
+			Utils.SendEmail(Utils.ReadStudentsFile());
+		}
     }
 }

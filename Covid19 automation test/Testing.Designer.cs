@@ -36,7 +36,7 @@
             // 
             this.nameLabel.AutoSize = true;
             this.nameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.nameLabel.Location = new System.Drawing.Point(13, 9);
+            this.nameLabel.Location = new System.Drawing.Point(13, 33);
             this.nameLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.nameLabel.Name = "nameLabel";
             this.nameLabel.Size = new System.Drawing.Size(147, 31);
@@ -46,10 +46,12 @@
             // 
             // startTest
             // 
+            this.startTest.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.startTest.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
             this.startTest.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.startTest.Location = new System.Drawing.Point(13, 376);
+            this.startTest.Location = new System.Drawing.Point(13, 79);
             this.startTest.Name = "startTest";
-            this.startTest.Size = new System.Drawing.Size(775, 51);
+            this.startTest.Size = new System.Drawing.Size(561, 275);
             this.startTest.TabIndex = 2;
             this.startTest.Text = "Започни Тест";
             this.startTest.UseVisualStyleBackColor = true;
@@ -59,7 +61,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(600, 378);
             this.Controls.Add(this.startTest);
             this.Controls.Add(this.nameLabel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
