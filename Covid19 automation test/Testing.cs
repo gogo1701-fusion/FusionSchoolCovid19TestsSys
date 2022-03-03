@@ -47,15 +47,10 @@ namespace Covid19_automation_test
             
             MessageBox.Show("Тестът за " + ti.Name + " започна. Моля изчакайте да свърши.");
 
-            Thread.Sleep(900000);
 
             TestConditionDialog tcd = new TestConditionDialog(ti, this);
             tcd.Show();
         }
 
-        private void пращанеНаТестовеПрезЕмайлToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

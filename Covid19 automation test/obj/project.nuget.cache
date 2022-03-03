@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "rZM+3Ab4hi8n/Vrkb7jw33GJnXoLyR2hZczYmZiGb20jyW+kZ3cV2Q/WV+h8hX1W7xssTZhjidb7mmo2YP1QMA==",
+  "dgSpecHash": "DTXS2I5TfbQa4kEuEdbekmX5ym3tWTMX5mQQpi6u1tgBxAO/0AMIHRBZh4uF+50AQLCWGK6RMqDlxQiSEmNvyg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bratl\\Desktop\\FusionSchoolCovid19TestsSys\\Covid19 automation test\\Covid19 automation test.csproj",
+  "projectFilePath": "D:\\covid19\\FusionSchoolCovid19TestsSys\\Covid19 automation test\\Covid19 automation test.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Bratl\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "C:\\Users\\GogoPC\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }
