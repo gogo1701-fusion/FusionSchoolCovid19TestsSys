@@ -735,11 +735,6 @@ namespace Covid19_automation_test
             },
 			new TestInfo()
             {
-				Name = "Тея Дочеф",
-				Grade = Grades.gis5A
-            },
-			new TestInfo()
-            {
 				Name = "Уилям Харгрийвз",
 				Grade = Grades.gis5A
             },
@@ -865,7 +860,6 @@ namespace Covid19_automation_test
 			new TestInfo()
             {
 				Name = "Станислав Вартоник",
-
 				Grade = Grades.gis6B
 			},
 		};
